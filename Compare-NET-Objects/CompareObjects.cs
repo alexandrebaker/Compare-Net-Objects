@@ -259,6 +259,12 @@ namespace KellermanSoftware.CompareNetObjects
         /// </summary>
         public Func<Type, bool> IsUseCustomTypeComparer { get; set; }
 
+		/// <summary>
+		/// Func that determine when use CustomNullableComparer for comparing specific type with nullable support.
+		/// Default value return permanent false value.
+		/// </summary>
+		public Func<Type, bool> IsUseCustomNullableTypeComparer { get; set; }
+
         /// <summary>
         /// Action that performed for comparing objects.
         /// T1: contain current CompareObjects
@@ -267,6 +273,15 @@ namespace KellermanSoftware.CompareNetObjects
         /// T4: current CompareObjects breadcrumb
         /// </summary>
         public Action<CompareObjects, object, object, string> CustomComparer { get; set; }
+
+		/// <summary>
+		/// Action that performed for comparing objects with nullable support..
+		/// T1: contain current CompareObjects
+		/// T2: object1 for comparing (Possible NullReference)
+		/// T3: object1 for comparing (Possible NullReference)
+		/// T4: current CompareObjects breadcrumb
+		/// </summary>
+		public Action<CompareObjects, object, object, string> CustomNullableComparer { get; set; }
 
         /// <summary>
         /// In the differences string, this is the name for expected name, default is Expected 
@@ -329,6 +344,7 @@ namespace KellermanSoftware.CompareNetObjects
             IgnoreObjectTypes = false;
             MaxDifferences = 1;
             IsUseCustomTypeComparer = t => false;
+	        IsUseCustomNullableTypeComparer = t => false;
             ExpectedName = "Expected";
             ActualName = "Actual";
         }
@@ -423,30 +439,40 @@ namespace KellermanSoftware.CompareNetObjects
             //Check if one of them is null
             if (object1 == null)
             {
-                Difference difference = new Difference
-                    {
-                        ExpectedName = ExpectedName,
-                        ActualName = ActualName,
-                        PropertyName = breadCrumb,
-                        Object1Value = "(null)",
-                        Object2Value = NiceString(object2)
-                    };
-                Differences.Add(difference);
-                return;
+	            if (IsUseCustomNullableTypeComparer(object2.GetType()) && CustomNullableComparer != null)
+		            CustomNullableComparer(this, null, object2, breadCrumb);
+				else
+				{
+					Difference difference = new Difference
+						{
+							ExpectedName = ExpectedName,
+							ActualName = ActualName,
+							PropertyName = breadCrumb,
+							Object1Value = "(null)",
+							Object2Value = NiceString(object2)
+						};
+					Differences.Add(difference);
+				}
+             	return;
             }
 
             if (object2 == null)
             {
-                Difference difference = new Difference
-                {
-                    ExpectedName = ExpectedName,
-                    ActualName = ActualName,
-                    PropertyName = breadCrumb,
-                    Object1Value = NiceString(object1),
-                    Object2Value = "(null)"
-                };
-                Differences.Add(difference);
-                return;
+	            if (IsUseCustomNullableTypeComparer(object1.GetType()) && CustomNullableComparer != null)
+		            CustomNullableComparer(this, object1, null, breadCrumb);
+	            else
+	            {
+		            Difference difference = new Difference
+			            {
+				            ExpectedName = ExpectedName,
+				            ActualName = ActualName,
+				            PropertyName = breadCrumb,
+				            Object1Value = NiceString(object1),
+				            Object2Value = "(null)"
+			            };
+		            Differences.Add(difference);
+	            }
+	            return;
             }
 
             Type t1 = object1.GetType();
