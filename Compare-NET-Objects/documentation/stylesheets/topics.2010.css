@@ -1,0 +1,218 @@
+/* Glossary links */
+
+div.hspopupbubble, div.hsglossaryreference, div.HsPopupBubble
+{
+    left:       4px;
+    position:   absolute;
+    padding:    4px 8px 5px 4px;
+    z-index:    1;
+    width:      50%;
+    visibility:     hidden;
+    border:     1px solid #999999;
+    background:     #EFEFF7;
+    font-size:  100%;
+}
+    
+A.hsglossaryreference       
+{ 
+    COLOR:  #008000 ;
+    border-bottom: 1px dotted #008000 ;
+    text-decoration: none;
+    cursor: hand;    
+    cursor: pointer;    
+}
+
+A.hsglossaryreference:link
+{
+    COLOR : #008000
+}
+
+A.hsglossaryreference:active
+{
+    COLOR : #008000
+}
+
+A.hsglossaryreference:visited
+{
+    COLOR : #008000
+}
+
+A.hsglossaryreference:hover
+{
+    COLOR : #008000
+}
+
+/* End Glossary Links */ 
+
+/***********************************************************
+ * Behaviors 
+ ***********************************************************/
+
+.userDataStyle
+{
+    behavior:url(#default#userData);
+}
+
+div.saveHistory
+{
+    behavior:url(#default#saveHistory);
+    display:    none;
+}
+
+
+
+/* The copy code prompt span */
+span.copyCode
+{
+    color:      #0000ff;
+    font-size:  80%;
+    font-weight: normal;
+    cursor:     pointer;
+    float:      right;
+    display:    inline;
+    text-align: right;
+}
+
+/*------------------------------ Code Styles ----------------------------------------*/
+
+div.code table th
+{   
+    font-weight:    bold;
+}
+
+div.code table td
+{
+    border-top:     1px solid #FFFFFF;
+    padding-top:    5;
+}
+
+div.code pre, .example, .sourcecode
+{
+    font-family:    Monospace, Courier New, Courier;
+    color:          #000066;
+    white-space:    nowrap;
+}
+
+/*------------------------------ Specific Cell Styles -------------------------------*/
+
+div#mainBody table.CodeContainerTable
+{
+    margin:     0;
+}
+
+div#mainBody table.CodeContainerTable td
+{
+    border:     none;
+}
+
+td.newlinkcell, td.newmembernamecell, td.newmemberslinkcell, div.newTopic, td.newcentered
+{
+    background-repeat:      no-repeat; 
+    background-position:    left top ; 
+}
+
+/*------------------------------ Expand Collapse -------------------------------*/
+
+span.expandcollapse
+{
+    cursor:default;
+}
+
+/*------------------------------ Image Styles -------------------------------*/
+
+div#mainBody img#toggleExpandedAllImage
+{
+    margin-left:    0;
+    vertical-align: middle;
+}
+
+div#mainBody img.toggle
+{
+    border:			0px;
+    margin-right:	5px;
+}
+
+div#mainBody img.copyCodeImage
+{
+    border:     0;
+    margin:     1;
+    margin-right: 3;
+}
+
+div#mainBody div.section
+{
+	margin-left:	14px;
+	margin-top:		4px;
+}
+
+/* Code Box Styles */
+div.OH_outerContent div#mainBody th.codeboxtitlecell
+{
+    border-right:       none;
+    padding-left:       13px;
+    padding-top:        2px;
+    padding-right:      2px;
+    padding-bottom:     2px;
+}
+
+div.OH_outerContent div#mainBody th.codeboxactioncell
+{
+    border-left:        none;
+}
+
+div.OH_outerContent div#mainBody img.copyCodeImage
+{
+    margin-top:             -2px;
+}
+
+div.OH_outerContent div#mainBody table.syntaxtable
+{
+    width:              95%;
+}
+
+div.OH_outerContent div#mainBody table.syntaxtable td
+{
+    padding-top:        4px;
+    padding-bottom:     6px;
+}
+
+/* Page Top Banner */
+div.PageTop
+{
+    border-bottom:  1px solid #d0d0d0; 
+    border-top:     1px solid #d0d0d0; 
+    margin-bottom:  8px; 
+    padding-top:    2px; 
+    padding-bottom: 2px;
+}
+
+/* Language Filter */
+img#LanguageFilterImage, img#MembersFilterImage
+{
+    border:     0;
+    margin-left:    5px;
+    margin-right:   5px;
+}
+
+.LanguageFilter, .MembersFilter
+{
+    color:              #0000FF;
+    cursor:             hand;
+    text-decoration:    underline;
+    padding-bottom:     4;
+    font-size:          8pt;
+}
+
+span#LanguageFilterToolTip
+{
+    margin-right:       10px;        
+}
+/* End Language Filter */
+
+/* Logo Image */
+img.logoimage
+{
+    float: right;
+    margin: 4px;
+}
+/* End Logo Image */

@@ -1,0 +1,193 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+   <param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="KellermanSoftware.Compare-NET-Objects Assembly">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Introduction">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects_introduction.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Getting Started">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects_gettingstarted.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Namespaces">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="KellermanSoftware.CompareNetObjects Namespace">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects_namespace.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Classes">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="CompareObjects">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Overview">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Members">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects_members.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="CompareObjects Constructor">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~_ctor.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Methods">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects_methods.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ClearCache Method">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~ClearCache.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Compare Method">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~Compare(Object,Object).html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Properties">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects_properties.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AttributesToIgnore Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~AttributesToIgnore.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="AutoClearCache Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~AutoClearCache.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Caching Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~Caching.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="CompareChildren Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~CompareChildren.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="CompareFields Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~CompareFields.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ComparePrivateFields Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~ComparePrivateFields.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ComparePrivateProperties Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~ComparePrivateProperties.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="CompareProperties Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~CompareProperties.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="CompareReadOnly Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~CompareReadOnly.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="CompareStaticFields Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~CompareStaticFields.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="CompareStaticProperties Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~CompareStaticProperties.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Differences Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~Differences.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="DifferencesString Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~DifferencesString.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="ElementsToIgnore Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~ElementsToIgnore.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="IgnoreObjectTypes Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~IgnoreObjectTypes.html">
+     </OBJECT>
+<UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="MaxDifferences Property">
+        <param name="Local" value="KellermanSoftware.Compare-NET-Objects~KellermanSoftware.CompareNetObjects.CompareObjects~MaxDifferences.html">
+     </OBJECT>
+<UL>
+</UL>
+</UL>
+</UL>
+</UL>
+</UL>
+</UL>
+</UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Licensing">
+        <param name="Local" value="Licensing.html">
+     </OBJECT>
+
+</UL>
+</BODY></HTML>
